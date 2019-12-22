@@ -1,0 +1,24 @@
+@mixin fLight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@mixin fReg {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@mixin fBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@mixin ourLinkBef {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $oColor;
+}
